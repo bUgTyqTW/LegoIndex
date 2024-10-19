@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message MetaDataNodeForFile {
+  int32 startBytes = 1;
+  int32 length = 2;
+  bytes keyName = 3;
+}
+
+message MetaDataListForFile{
+  repeated MetaDataNodeForFile metaDataNodeForFile = 1;
+}

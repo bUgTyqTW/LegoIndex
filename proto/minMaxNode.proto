@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message MinMaxNode {
+  double min = 1;
+  double max = 2;
+  uint64 start = 3;
+  uint64 end = 4;
+}
+
+message MinMaxList {
+  repeated MinMaxNode minMaxNodes = 1;
+}

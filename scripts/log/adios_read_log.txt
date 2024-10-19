@@ -1,0 +1,244 @@
+The number of threads is 1
+The size of the jobsQueue is 121
+The blockNum is 100, The Count is 275205
+The code execution took 0.0607644 seconds.
+The blockNum is 200, The Count is 595289
+The code execution took 0.0619589 seconds.
+The blockNum is 300, The Count is 898701
+The code execution took 0.0654908 seconds.
+The blockNum is 400, The Count is 1176909
+The code execution took 0.0672581 seconds.
+The blockNum is 500, The Count is 1386631
+The code execution took 0.0686349 seconds.
+The blockNum is 600, The Count is 1726780
+The code execution took 0.0716393 seconds.
+The blockNum is 700, The Count is 2132661
+The code execution took 0.0744558 seconds.
+The blockNum is 800, The Count is 2453935
+The code execution took 0.0777709 seconds.
+The blockNum is 900, The Count is 2855479
+The code execution took 0.0805817 seconds.
+The blockNum is 1000, The Count is 3146192
+The code execution took 0.0833914 seconds.
+The blockNum is 1100, The Count is 3494632
+The code execution took 0.0864015 seconds.
+The blockNum is 1200, The Count is 3759854
+The code execution took 0.0899299 seconds.
+The blockNum is 1300, The Count is 3992706
+The code execution took 0.0913073 seconds.
+The blockNum is 1400, The Count is 4280833
+The code execution took 0.0939833 seconds.
+The blockNum is 1500, The Count is 4667462
+The code execution took 0.0975094 seconds.
+The blockNum is 1600, The Count is 4999246
+The code execution took 0.100473 seconds.
+The blockNum is 1700, The Count is 5395648
+The code execution took 0.103848 seconds.
+The blockNum is 1800, The Count is 5711566
+The code execution took 0.106812 seconds.
+The blockNum is 1900, The Count is 5944320
+The code execution took 0.108784 seconds.
+The blockNum is 2000, The Count is 6183155
+The code execution took 0.111152 seconds.
+The blockNum is 2100, The Count is 6497861
+The code execution took 0.114607 seconds.
+The blockNum is 2200, The Count is 6842622
+The code execution took 0.118453 seconds.
+The blockNum is 2300, The Count is 7226308
+The code execution took 0.120657 seconds.
+The blockNum is 2400, The Count is 7582600
+The code execution took 0.124074 seconds.
+The blockNum is 2500, The Count is 7924236
+The code execution took 0.126963 seconds.
+The blockNum is 2600, The Count is 8215753
+The code execution took 0.129651 seconds.
+The blockNum is 2700, The Count is 8578513
+The code execution took 0.132678 seconds.
+The blockNum is 2800, The Count is 8796141
+The code execution took 0.134843 seconds.
+The blockNum is 2900, The Count is 9061609
+The code execution took 0.138831 seconds.
+The blockNum is 3000, The Count is 9386702
+The code execution took 0.140162 seconds.
+The blockNum is 3100, The Count is 9794600
+The code execution took 0.143965 seconds.
+The blockNum is 3200, The Count is 10117196
+The code execution took 0.146674 seconds.
+The blockNum is 3300, The Count is 10527416
+The code execution took 0.150133 seconds.
+The blockNum is 3400, The Count is 10822882
+The code execution took 0.152976 seconds.
+The blockNum is 3500, The Count is 11127796
+The code execution took 0.156253 seconds.
+The blockNum is 3600, The Count is 11440620
+The code execution took 0.159046 seconds.
+The blockNum is 3700, The Count is 11744372
+The code execution took 0.160886 seconds.
+The blockNum is 3800, The Count is 12052660
+The code execution took 0.16351 seconds.
+The blockNum is 3900, The Count is 12413108
+The code execution took 0.166554 seconds.
+The blockNum is 4000, The Count is 12747708
+The code execution took 0.1692 seconds.
+The blockNum is 4100, The Count is 13130076
+The code execution took 0.174054 seconds.
+The blockNum is 4200, The Count is 13469872
+The code execution took 0.177454 seconds.
+The blockNum is 4300, The Count is 13878826
+The code execution took 0.180235 seconds.
+The blockNum is 4400, The Count is 14235130
+The code execution took 0.183332 seconds.
+The blockNum is 4500, The Count is 14613193
+The code execution took 0.18625 seconds.
+The blockNum is 4600, The Count is 14989804
+The code execution took 0.189414 seconds.
+The blockNum is 4700, The Count is 15276391
+The code execution took 0.192673 seconds.
+The blockNum is 4800, The Count is 15632559
+The code execution took 0.19535 seconds.
+The blockNum is 4900, The Count is 15943407
+The code execution took 0.197556 seconds.
+The blockNum is 5000, The Count is 16262639
+The code execution took 0.200159 seconds.
+The blockNum is 5100, The Count is 16657827
+The code execution took 0.203537 seconds.
+The blockNum is 5200, The Count is 16986883
+The code execution took 0.20791 seconds.
+The blockNum is 5300, The Count is 17402570
+The code execution took 0.209928 seconds.
+The blockNum is 5400, The Count is 17731642
+The code execution took 0.212716 seconds.
+The blockNum is 5500, The Count is 18141242
+The code execution took 0.216219 seconds.
+The blockNum is 5600, The Count is 18464826
+The code execution took 0.218624 seconds.
+The blockNum is 5700, The Count is 18874426
+The code execution took 0.222683 seconds.
+The blockNum is 5800, The Count is 19248186
+The code execution took 0.225616 seconds.
+The blockNum is 5900, The Count is 19556474
+The code execution took 0.228189 seconds.
+The blockNum is 6000, The Count is 19870138
+The code execution took 0.230473 seconds.
+The blockNum is 6100, The Count is 20268138
+The code execution took 0.235152 seconds.
+The blockNum is 6200, The Count is 20591957
+The code execution took 0.236939 seconds.
+The blockNum is 6300, The Count is 21029593
+The code execution took 0.240474 seconds.
+The blockNum is 6400, The Count is 21352800
+The code execution took 0.243031 seconds.
+The blockNum is 6500, The Count is 21773519
+The code execution took 0.247709 seconds.
+The blockNum is 6600, The Count is 22083543
+The code execution took 0.249933 seconds.
+The blockNum is 6700, The Count is 22458397
+The code execution took 0.252507 seconds.
+The blockNum is 6800, The Count is 22770293
+The code execution took 0.255094 seconds.
+The blockNum is 6900, The Count is 23098405
+The code execution took 0.259261 seconds.
+The blockNum is 7000, The Count is 23447221
+The code execution took 0.261519 seconds.
+The blockNum is 7100, The Count is 23775241
+The code execution took 0.264528 seconds.
+The blockNum is 7200, The Count is 24168713
+The code execution took 0.266939 seconds.
+The blockNum is 7300, The Count is 24523530
+The code execution took 0.270951 seconds.
+The blockNum is 7400, The Count is 24908096
+The code execution took 0.272941 seconds.
+The blockNum is 7500, The Count is 25258560
+The code execution took 0.276544 seconds.
+The blockNum is 7600, The Count is 25630528
+The code execution took 0.282565 seconds.
+The blockNum is 7700, The Count is 25991744
+The code execution took 0.283745 seconds.
+The blockNum is 7800, The Count is 26352960
+The code execution took 0.285547 seconds.
+The blockNum is 7900, The Count is 26638021
+The code execution took 0.288096 seconds.
+The blockNum is 8000, The Count is 27079403
+The code execution took 0.291951 seconds.
+The blockNum is 8100, The Count is 27396877
+The code execution took 0.308402 seconds.
+The blockNum is 8200, The Count is 27799506
+The code execution took 0.303269 seconds.
+The blockNum is 8300, The Count is 28125867
+The code execution took 0.304928 seconds.
+The blockNum is 8400, The Count is 28483423
+The code execution took 0.306269 seconds.
+The blockNum is 8500, The Count is 28809333
+The code execution took 0.309713 seconds.
+The blockNum is 8600, The Count is 29225580
+The code execution took 0.321676 seconds.
+The blockNum is 8700, The Count is 29539244
+The code execution took 0.316207 seconds.
+The blockNum is 8800, The Count is 29847532
+The code execution took 0.318248 seconds.
+The blockNum is 8900, The Count is 30199788
+The code execution took 0.323279 seconds.
+The blockNum is 9000, The Count is 30546413
+The code execution took 0.324893 seconds.
+The blockNum is 9100, The Count is 30939342
+The code execution took 0.328218 seconds.
+The blockNum is 9200, The Count is 31295182
+The code execution took 0.33273 seconds.
+The blockNum is 9300, The Count is 31663684
+The code execution took 0.334026 seconds.
+The blockNum is 9400, The Count is 32030276
+The code execution took 0.33698 seconds.
+The blockNum is 9500, The Count is 32386116
+The code execution took 0.342674 seconds.
+The blockNum is 9600, The Count is 32763460
+The code execution took 0.343433 seconds.
+The blockNum is 9700, The Count is 33094788
+The code execution took 0.346716 seconds.
+The blockNum is 9800, The Count is 33458052
+The code execution took 0.350808 seconds.
+The blockNum is 9900, The Count is 33771716
+The code execution took 0.352351 seconds.
+The blockNum is 10000, The Count is 34193455
+The code execution took 0.356162 seconds.
+The blockNum is 10100, The Count is 34554816
+The code execution took 0.459981 seconds.
+The blockNum is 10200, The Count is 34914357
+The code execution took 0.379546 seconds.
+The blockNum is 10300, The Count is 35270723
+The code execution took 0.38263 seconds.
+The blockNum is 10400, The Count is 35591813
+The code execution took 0.385124 seconds.
+The blockNum is 10500, The Count is 35945241
+The code execution took 0.389643 seconds.
+The blockNum is 10600, The Count is 36345770
+The code execution took 0.39234 seconds.
+The blockNum is 10700, The Count is 36680176
+The code execution took 0.39487 seconds.
+The blockNum is 10800, The Count is 37040624
+The code execution took 0.398206 seconds.
+The blockNum is 10900, The Count is 37348912
+The code execution took 0.401929 seconds.
+The blockNum is 11000, The Count is 37656279
+The code execution took 0.404981 seconds.
+The blockNum is 11100, The Count is 38086482
+The code execution took 0.408214 seconds.
+The blockNum is 11200, The Count is 38411527
+The code execution took 0.411516 seconds.
+The blockNum is 11300, The Count is 38821576
+The code execution took 0.414815 seconds.
+The blockNum is 11400, The Count is 39145160
+The code execution took 0.417958 seconds.
+The blockNum is 11500, The Count is 39554760
+The code execution took 0.421038 seconds.
+The blockNum is 11600, The Count is 39878344
+The code execution took 0.424113 seconds.
+The blockNum is 11700, The Count is 40287944
+The code execution took 0.427619 seconds.
+The blockNum is 11800, The Count is 40596168
+The code execution took 0.430218 seconds.
+The blockNum is 11900, The Count is 40916088
+The code execution took 0.435453 seconds.
+The blockNum is 12000, The Count is 41273096
+The code execution took 0.436618 seconds.
+The blockNum is 12052, The Count is 41405256
+The code execution took 0.437548 seconds.

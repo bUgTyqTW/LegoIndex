@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message TreeNode {
+  int32 level = 1;
+  int32 childSize = 2;
+  double minx = 3;
+  double maxx = 4;
+  double miny = 5;
+  double maxy = 6;
+  double minz = 7;
+  double maxz = 8;
+  uint64 start = 9;
+  uint64 end = 10;
+  bytes bloom_filter = 11;
+}
+
+message TreeNodeList {
+  repeated TreeNode treeNodes = 1;
+}
