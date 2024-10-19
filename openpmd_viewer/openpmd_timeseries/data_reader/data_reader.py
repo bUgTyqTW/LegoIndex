@@ -18,13 +18,15 @@ try:
     import openpmd_api as io
     from . import io_reader
     available_backends.append('openpmd-api')
-except ImportError:
+except ImportError as e:
+    print(e)
     pass
 
 try:
     from . import h5py_reader
     available_backends.append('h5py')
-except ImportError:
+except ImportError as e:
+    print(e)
     pass
 
 if len(available_backends) == 0:
@@ -266,7 +268,7 @@ class DataReader( object ):
                 self.series, iteration, field, coord, slice_relative_position,
                 slice_across, m, theta, max_resolution_3d )
 
-    def read_species_data( self, iteration, species, record_comp, extensions):
+    def read_species_data( self, iteration, species, record_comp, extensions, read_chunk_range=None, skip_offset=False):
         """
         Extract a given species' record_comp
 
@@ -285,13 +287,18 @@ class DataReader( object ):
         extensions: list of strings
             The extensions that the current OpenPMDTimeSeries complies with
         """
+        print(f"read data from disk: {record_comp}")
         if self.backend == 'h5py':
             filename = self.iteration_to_file[iteration]
             return h5py_reader.read_species_data(
                     filename, iteration, species, record_comp, extensions )
         elif self.backend == 'openpmd-api':
             return io_reader.read_species_data(
-                    self.series, iteration, species, record_comp, extensions )
+                    self.series, iteration, species, record_comp, extensions, read_chunk_range, skip_offset)
+
+    def read_species_support_data( self, iteration, species, record_comp, extensions, read_chunk_range=None, skip_offset=False):
+        return io_reader.read_species_support_data(
+                self.series, iteration, species, record_comp, extensions, read_chunk_range, skip_offset)
 
     def get_grid_parameters(self, iteration, avail_fields, metadata ):
         """

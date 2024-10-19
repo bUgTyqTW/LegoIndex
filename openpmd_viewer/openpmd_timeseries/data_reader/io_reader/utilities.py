@@ -9,7 +9,7 @@ Authors: Remi Lehe, Axel Huebl
 License: 3-Clause-BSD-LBNL
 """
 import numpy as np
-
+import time
 
 def chunk_to_slice(chunk):
     """
@@ -64,7 +64,8 @@ def get_data(series, record_component, i_slice=None, pos_slice=None,
         # mask invalid regions with NaN
         #   note: full_like triggers a full read, thus we avoid it #340
         data = np.full(record_component.shape, np.nan, record_component.dtype)
-        for chunk in chunks:
+        for k, chunk in enumerate(chunks):
+            start = time.time()
             chunk_slice = chunk_to_slice(chunk)
 
             # skip empty slices
@@ -79,6 +80,7 @@ def get_data(series, record_component, i_slice=None, pos_slice=None,
             x = record_component[chunk_slice]
             series.flush()
             data[chunk_slice] = x
+            # print("chunk:", k, "read in", time.time() - start, "s", "start:", chunk_slice[0].start, "end:", chunk_slice[0].stop)
     # slice: read only part of the data set
     else:
         full_shape = record_component.shape

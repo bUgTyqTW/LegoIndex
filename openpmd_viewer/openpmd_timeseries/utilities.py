@@ -8,6 +8,7 @@ Authors: Remi Lehe, Richard Pausch
 License: 3-Clause-BSD-LBNL
 """
 
+import time
 import copy
 import math
 import numpy as np
@@ -96,6 +97,8 @@ def apply_selection(iteration, data_reader, data_list,
     for quantity in select.keys():
         q = data_reader.read_species_data(
             iteration, species, quantity, extensions)
+
+        start = time.time()
         # Check lower bound
         if select[quantity][0] is not None:
             select_array = np.logical_and(
@@ -106,13 +109,23 @@ def apply_selection(iteration, data_reader, data_list,
             select_array = np.logical_and(
                 select_array,
                 q < select[quantity][1])
+        end = time.time()
+        print("calculate particle level select array. Time elapsed: ", end - start)
 
+
+    start = time.time()
     # Use select_array to reduce each quantity
     for i in range(len(data_list)):
         if len(data_list[i]) > 1:  # Do not apply selection on scalar records
             data_list[i] = data_list[i][select_array]
+    end = time.time()
+    print("apply particle level select array. Time elapsed: ", end - start)
 
     return(data_list)
+
+
+def apply_selection_gc(iteration, data_reader, data_list, select, species, extensions):
+    pass
 
 
 def try_array( L ):
